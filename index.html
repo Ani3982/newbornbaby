@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #40E0D0;
+            color: red;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .photo {
+            width: 30%;
+            margin: 10px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .photo:hover {
+            transform: scale(1.1);
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #40E0D0;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+		.iron-man-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity for lighting effect */
+    padding: 20px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Lighting effect shadow */
+}
+
+.logo {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out; /* Attractive effect */
+}
+
+.logo-image {
+    width: 100px; /* Adjust the size of the logo */
+}
+
+.logo:hover {
+    transform: scale(1.1); /* Increase the size on hover for an attractive effect */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Color change effect */
+}
+
+.nav-links li a:hover {
+    color: #FF4500; /* Adjust the color on hover */
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Photography Website</h1>
+		<nav class="iron-man-navbar">
+        <div class="logo">
+            <img src="4-2-iron-man-png-hd.png" alt="Iron Man Logo" class="logo-image">
+        </div>
+        <ul class="nav-links">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="portfolio.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <section>
+        <div class="photo">
+            <img src="photo1.jpg" alt="Photo 1">
+        </div>
+        <div class="photo">
+            <img src="photo2.jpg" alt="Photo 2">
+        </div>
+        <div class="photo">
+            <img src="photo3.jpg" alt="Photo 3">
+        </div>
+        <div class="photo">
+            <img src="photo4.jpg" alt="Photo 4">
+        </div>
+        <div class="photo">
+            <img src="photo5.jpg" alt="Photo 5">
+        </div>
+        <div class="photo">
+            <img src="photo6.jpg" alt="Photo 6">
+        </div>
+        <div class="photo">
+            <img src="photo7.jpg" alt="Photo 7">
+        </div>
+        <div class="photo">
+            <img src="photo8.jpg" alt="Photo 8">
+        </div>
+        <div class="photo">
+            <img src="photo9.jpg" alt="Photo 9">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Photography Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
